@@ -124,6 +124,10 @@ async function controlAddRecipe(newRecipe) {
   }
 }
 
+function newFeature() {
+  console.log("Code I wrote from a new git branch just created. :)");
+}
+
 // Publisher - Subscriber Pattern
 function init() {
   bookmarksView.addHandlerRender(controlLoadBookmarks);
@@ -133,7 +137,7 @@ function init() {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  console.log("Welcome");
+  newFeature();
 }
 
 init();
