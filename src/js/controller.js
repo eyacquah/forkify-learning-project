@@ -125,7 +125,7 @@ async function controlAddRecipe(newRecipe) {
 }
 
 function newFeature() {
-  console.log("Code I wrote from a new git branch just created. :)");
+  console.log("Welcome to the Application!");
 }
 
 // Publisher - Subscriber Pattern
